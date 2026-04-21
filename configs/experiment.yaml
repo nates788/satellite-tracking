@@ -1,0 +1,11 @@
+project_name: sat_obb_project
+primary_detector: yolo_v8_obb
+secondary_detector: detr_baseline
+image_size: 1024
+main_epochs: 100
+smoke_test_epochs: 10
+tracking:
+  iou_threshold: 0.2
+  max_age: 5
+  min_hits: 2
+  confidence_threshold: 0.25
