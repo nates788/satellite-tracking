@@ -1,6 +1,6 @@
 # Satellite Video Object Detection and Tracking
 
-<video src="demo.mov" controls width="900"></video>
+![Demo](demo.gif)
 
 ## Overview
 
